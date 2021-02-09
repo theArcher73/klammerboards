@@ -1,0 +1,106 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "ATTNode"
+Date "2019-08-29"
+Rev "1.1"
+Comp ""
+Comment1 "A ATTiny84 + RFM95W Based Lora Sensor Basenode"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 5D68DC89
+P 3950 2250
+F 0 "J1" H 4000 1700 50  0000 R CNN
+F 1 "J1" H 3922 2223 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3950 2250 50  0001 C CNN
+F 3 "~" H 3950 2250 50  0001 C CNN
+	1    3950 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D6A5353
+P 5600 3650
+F 0 "#PWR0104" H 5600 3400 50  0001 C CNN
+F 1 "GND" H 5605 3477 50  0000 C CNN
+F 2 "" H 5600 3650 50  0001 C CNN
+F 3 "" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5D6F7EE7
+P 5050 2950
+F 0 "#PWR0108" H 5050 2800 50  0001 C CNN
+F 1 "+3V3" H 5065 3123 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even PRG-Out1
+U 1 1 5D69C5BF
+P 4100 3550
+F 0 "PRG-Out1" H 4150 3800 50  0000 C CNN
+F 1 "PRG" H 4150 3776 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4100 3550 50  0001 C CNN
+F 3 "~" H 4100 3550 50  0001 C CNN
+	1    4100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FB286BB
+P 5550 2950
+F 0 "#FLG0101" H 5550 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 5550 3123 50  0000 C CNN
+F 2 "" H 5550 2950 50  0001 C CNN
+F 3 "~" H 5550 2950 50  0001 C CNN
+	1    5550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FB2A9BA
+P 5350 3650
+F 0 "#FLG0102" H 5350 3725 50  0001 C CNN
+F 1 "PWR_FLAG" H 5350 3823 50  0000 C CNN
+F 2 "" H 5350 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3650 5600 3650
+Wire Wire Line
+	5050 2950 5550 2950
+Text GLabel 5050 2950 0    50   Input ~ 0
+PRG_Vin
+Text GLabel 5600 3650 2    50   Input ~ 0
+PRG_GND
+Text GLabel 4400 3650 2    50   Input ~ 0
+PRG_GND
+Text GLabel 4400 3450 2    50   Input ~ 0
+PRG_Vin
+NoConn ~ 4400 3550
+NoConn ~ 3900 3550
+NoConn ~ 3900 3450
+NoConn ~ 3900 3650
+NoConn ~ 3750 1850
+NoConn ~ 3750 1950
+NoConn ~ 3750 2050
+NoConn ~ 3750 2150
+NoConn ~ 3750 2250
+NoConn ~ 3750 2350
+NoConn ~ 3750 2450
+NoConn ~ 3750 2550
+$EndSCHEMATC

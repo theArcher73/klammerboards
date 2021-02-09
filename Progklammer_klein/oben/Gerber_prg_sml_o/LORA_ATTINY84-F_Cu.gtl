@@ -1,0 +1,35 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*
+G04 #@! TF.CreationDate,2020-11-16T17:30:03+01:00*
+G04 #@! TF.ProjectId,LORA_ATTINY84,4c4f5241-5f41-4545-9449-4e5938342e6b,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L1,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2020-11-16 17:30:03*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10O,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11R,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
+%ADD12C,0.250000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X61899800Y-58928000D03*
+X64439800Y-58928000D03*
+X61899800Y-61468000D03*
+X64439800Y-61468000D03*
+X61899800Y-64008000D03*
+D11*
+X64439800Y-64008000D03*
+D12*
+X64439800Y-59728998D02*
+X64439800Y-58928000D01*
+M02*
