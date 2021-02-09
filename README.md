@@ -1,4 +1,4 @@
-# klammerboards
+# Klammerboards Programmieradapter
  Boards für Testklammern
  
  attnodev2_prog - Programmieradapter mit Kontakten für Prog-Header und Sensor-Header
