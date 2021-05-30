@@ -9,3 +9,7 @@
  
  sensor - Adapter für den I<sub>2</sub>c-Anschluss
  ![sensor](https://github.com/theArcher73/klammerboards/blob/main/sensor/sensor.png)
+
+Disclaimer
+
+The documentation of the Klammerboards Programmieradapter is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
